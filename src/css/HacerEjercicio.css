@@ -1,0 +1,110 @@
+/* Aplicar estilos para body */
+body{
+  margin: 0;
+  background-color: #00D1FF;
+}
+
+/* Cabecera de la Pagina */
+header{
+  background-color: cyan;
+  padding: 0px 30px;
+}
+
+/* Estilos para el Logo */
+#logo{
+  margin: 20px;
+}
+
+/* Estilos para el mensaje de bienvenida */
+#mensajeBienvenida{
+  float: right;
+  display: inline;
+  margin-top: 6px;
+}
+
+/* Estilos para enlace login / logout */
+#loginout{
+  margin-left: 20px;
+}
+
+/* Estilos para Barra de navegacion */
+nav{
+  margin-top: -35px;
+  margin-right: 20px;
+  float: right;
+}
+
+/* Estilos para todos los enlaces que estan dentro de la barra de navegacion */
+nav a{
+  margin-left: 30px;
+  font-size: 25px;
+  font-family: Arial;
+  text-decoration: none;
+}
+
+/* Estilos para todos los enunciados de todos los ejercicios */
+#enunciado{
+  margin: 0% 15%;
+  font-size: 18px;
+}
+
+/* Estilos para todos los parrafos de las frases */
+#frases p{
+  margin: 2% 10%;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+/* Estilo para todas las flechas de las frases */
+.FlechaFrases{
+  width: 20px;
+}
+
+/* Estilo para todos los huecos de las frases */
+.palabras{
+  background-color: #7BE7FF;
+  padding: 5px 25px;
+}
+
+/* Estilo para la barra de separacion entre ejercicio y respuesta */
+hr {
+    margin: 0px 30px;
+    background-image: linear-gradient(90deg, darkblue, transparent);
+
+    border: 0;
+    height: 1px;
+}
+
+/* Estilos para el div de respuestas */
+#respuestas{
+  margin: 2% 10%;
+}
+
+/* Formulario de respuestas */
+form{
+  font-size: 25px;
+  font-family: Arial;
+}
+
+/* Estilos para todos los input text del formulario de respuestas */
+form input[type="text"]{
+  margin-top: 20px;
+  padding: 6px;
+}
+
+/* Estilos para el boton "Siguiente" */
+form input[type="submit"]{
+  padding: 10px 30px;
+  float: right;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 25px;
+  background: linear-gradient(#7381F5, #AFB6F5);
+  transition: all .3s;
+}
+
+/* Estilo al mantener raton encima de boton "Siguiente" */
+form input[type="submit"]:hover{
+  background: linear-gradient(#3CB4F0, #85D5FC);
+  transition: all .3s;
+}
